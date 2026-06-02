@@ -1,0 +1,49 @@
+# Custom additions for deployment
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated reports
+claude_code_security_report.md
+*_security_report.md
+
+# Checkpoints and trained models
+*.pkl
+*.pth
+checkpoint.pkl
+aspice_auditor.pkl
+
+# AWS credentials (safety)
+.aws/
+credentials
+config
+
+# Session logs (contains sensitive data)
+*.jsonl
+
+# Test outputs
+test_output/
+outputs/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
