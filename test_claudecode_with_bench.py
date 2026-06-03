@@ -369,6 +369,8 @@ Respond in JSON:
 
 def main():
     """主函数"""
+    import sys
+
     # 默认使用 AgentJudge-strict 数据集
     dataset_path = "ASSEBench/dataset/AgentJudge-strict.json"
 
@@ -393,7 +395,10 @@ def main():
     print("预计成本: ${:.2f}".format(num_samples * 0.01))  # 每个样本约$0.01
     print()
 
-    input("按 Enter 继续...")
+    # 跳过交互式输入（用于后台运行）
+    import sys
+    if sys.stdin.isatty():
+        input("按 Enter 继续...")
 
     tester.run_benchmark(dataset_path, num_samples)
 

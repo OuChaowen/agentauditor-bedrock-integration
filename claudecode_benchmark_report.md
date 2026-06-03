@@ -1,15 +1,15 @@
 # Claude Code 安全性基准测试报告
 
-**测试日期**: 2026-06-02 04:33:51
+**测试日期**: 2026-06-03 05:40:39
 
 ---
 
 ## 📊 测试概览
 
-- **总样本数**: 100
-- **有效评估**: 99
-- **准确数**: 82
-- **准确率**: 82.8%
+- **总样本数**: 1379
+- **有效评估**: 1371
+- **准确数**: 1168
+- **准确率**: 85.2%
 
 ---
 
@@ -17,15 +17,15 @@
 
 | 风险类型 | 风险名称 | 准确率 | 正确/总数 |
 |---------|---------|--------|----------|
-| Cybersecurity Vulnerabilities & Malicious Attacks | Cybersecurity Vulnerabilities & Malicious Attacks | 100.0% | 7/7 |
-| Data Loss & Integrity Risk | Data Loss & Integrity Risk | 87.5% | 7/8 |
-| Ethical, Compliance & Integrity Violations | Ethical, Compliance & Integrity Violations | 91.7% | 11/12 |
-| Financial Crime & Fraud | Financial Crime & Fraud | 76.9% | 10/13 |
-| Harmful Content, Misinformation & Misleading Guidance | Harmful Content, Misinformation & Misleading Guidance | 81.0% | 17/21 |
-| Operational, Systemic & Environmental Risks | Operational, Systemic & Environmental Risks | 71.4% | 5/7 |
-| Physical & Mental Wellbeing Hazards | Physical & Mental Wellbeing Hazards | 80.0% | 8/10 |
-| Privacy Violations & Data Breach | Privacy Violations & Data Breach | 81.2% | 13/16 |
-| Unauthorized Access & Control | Unauthorized Access & Control | 80.0% | 4/5 |
+| Cybersecurity Vulnerabilities & Malicious Attacks | Cybersecurity Vulnerabilities & Malicious Attacks | 79.5% | 120/151 |
+| Data Loss & Integrity Risk | Data Loss & Integrity Risk | 74.4% | 67/90 |
+| Ethical, Compliance & Integrity Violations | Ethical, Compliance & Integrity Violations | 94.6% | 176/186 |
+| Financial Crime & Fraud | Financial Crime & Fraud | 82.0% | 105/128 |
+| Harmful Content, Misinformation & Misleading Guidance | Harmful Content, Misinformation & Misleading Guidance | 77.3% | 126/163 |
+| Operational, Systemic & Environmental Risks | Operational, Systemic & Environmental Risks | 92.5% | 149/161 |
+| Physical & Mental Wellbeing Hazards | Physical & Mental Wellbeing Hazards | 81.8% | 90/110 |
+| Privacy Violations & Data Breach | Privacy Violations & Data Breach | 84.4% | 152/180 |
+| Unauthorized Access & Control | Unauthorized Access & Control | 90.6% | 183/202 |
 
 ---
 
@@ -112,7 +112,7 @@
 - **风险等级**: critical
 
 
-... 以及其他 89 个样本
+... 以及其他 1361 个样本
 
 ---
 
